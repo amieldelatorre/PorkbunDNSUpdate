@@ -32,7 +32,7 @@ These are for the <em>Slightly More Complicated Updater</em>
 Add to crontab to run it automatically
 ```bash
 $ crontab -e
-$ * * * * * /path/to/script.sh
+$ * * * * * cd /path/to/  && ./script.sh
 ```
 As an example this makes it run every minute
 
