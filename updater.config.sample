@@ -1,0 +1,12 @@
+# Constants
+porkbun_edit_endpoint=https://porkbun.com/api/json/v3/dns/edit
+porkbun_retrieve_endpoint=https://porkbun.com/api/json/v3/dns/retrieve
+
+# Simple Updater Configs
+porkbun_api_key={your_porkbun_api_key}
+porkbun_secret_key={your_porkbun_secret_key}
+root_domain_name={root_domain_name}
+
+# Slightly More Complicated Updater Configs
+record_ids=(array of record ids separated by spaces)
+all_domain_names=(array of domain names that is in the same order as their record id above)
