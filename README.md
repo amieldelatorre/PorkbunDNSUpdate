@@ -19,13 +19,22 @@ These are for the <em>Slightly More Complicated Updater</em>
     - May or may not be required depending on how linux reads these files as it was written on a windows machine
     - Installation
         ```bash
-        $ sudo apt install jq
+        $ sudo apt install dos2unix
         ```
 - [ ] jq
     - Installation
         ```bash
         $ sudo apt install jq
         ```
+
+
+## Cron Job
+Add to crontab to run it automatically
+```bash
+$ crontab -e
+$ * * * * * /path/to/script.sh
+```
+As an example this makes it run every minute
 
 ## Logs
 These are for the <em>Slightly More Complicated Updater</em>

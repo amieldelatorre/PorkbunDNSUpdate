@@ -10,7 +10,7 @@ echodate() {
 
 # Create a log file and folder if it hasn't been created
 log_folder=$(find logs)
-if [[ log_folder != "logs" ]]; then
+if [[ log_folder != *"logs"* ]]; then
     mkdir logs
     echodate "Logs folder created -> /logs" >> logs/update.log
     echo >> logs/update.log
